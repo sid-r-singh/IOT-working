@@ -1,6 +1,9 @@
 h1, h2 {
   font-family: Lato;
 }
+#pnt1{
+  margin-left: 45%;
+}
 // Cards
 .bg-c-green {
     background: linear-gradient(45deg,#2ed8b6,#59e0c5);
@@ -135,10 +138,7 @@ h1, h2 {
   }
 }
 /* For aesthetics only ------------------------------------------*/
-body {
-  margin: 0;
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-}
+
 
 h1 {
   font: 200 1.2em "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
@@ -148,8 +148,4 @@ h1 {
   padding: 20px;
   margin: 0;
   border-bottom: 10px solid #ccc;
-}
-h1 strong {
-  font-family: "Segoe UI Black";
-  font-weight: normal;
 }
