@@ -9,40 +9,7 @@ h1, h2 {
   left: 60%;
   top: 16%;
 }
-// Cards
-.bg-c-green {
-    
-}
-.card {
-    border-radius: 5px;
-    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
-    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
-    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
-    border: none;
-    
-    margin-bottom: 30px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-.order-card {
-    color:#fff;
-}
 
-.card .card-block {
-    padding: 25px;
-}
-
-.order-card i {
-    font-size: 26px;
-}
-
-.f-left {
-    float: left;
-}
-
-.f-right {
-    float: right;
-}
 // Bowl
 .bowl-1 {
   position: relative;
