@@ -19,8 +19,15 @@ firebase.initializeApp(firebaseConfig);
 
 var database = firebase.database();
 var ref = database.ref("Tanks/tank1");
-ref.on("value", (snapshot) => {
-document.getElementById("pnt1").innerHTML = snapshot.val();
+
+ref.on("value", function(snap){
+document.getElementById("pnt1").innerHTML = snap.val();
+console.log(snap);
+window.tan_1a=snap;
+console.log(window.tan_1a);
 });
+console.log(2*window.tan_1a);
+
+
 
 
